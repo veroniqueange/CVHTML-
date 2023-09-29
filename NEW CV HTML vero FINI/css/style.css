@@ -1,0 +1,132 @@
+
+body{
+    
+    /* largeur maximale à 100px car ce document est étudié pour avoir un format portrait*/
+  font-size: 18px;
+    font-family: cursive;
+padding:auto;
+    /*Affichage du header à gauche*/
+    display: flex;
+    flex-direction: row; 
+ /* border: solid  rgb(207, 15,15 ); */
+width: min(1200px,100%);
+height: auto;
+margin:auto;
+
+}
+
+
+
+.header {
+     /* la largeur du header s'ajuste à la largeur de la photo */
+     width: 240px;
+     display: flex;
+     flex-direction:column;
+     
+}
+
+
+
+main{
+    height: 700px;
+    margin:10px ;
+   font-size: 18px;    
+    padding-right: 35px;
+    font-family: cursive;
+  
+}
+   
+
+
+h1{
+        
+    font-size: 30px;
+    font-family: cursive;     
+    font-size: 30px;
+    text-align: center;
+    flex: 1;
+}
+
+ 
+#presentation{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(138, 137, 226);      
+    border-radius: 50px;
+    border: solid 25px rgb(10, 10, 10);
+    font-size: 25px; 
+    font-family: cursive;
+    
+            
+}
+#presentation .photo{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+}
+#presentation .photo img {
+    height: 100%;
+}
+
+    #coordonnées{
+        
+        border-top: solid 20px rgb(10, 10, 10);
+        padding: 10px;
+        font-size: 20px; 
+        font-family: cursive;
+     }
+    
+     .post{
+    padding: 0 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+
+    /* Redimensionne les icônes en plus petit*/
+    
+    .impr{
+        display: none;
+    }
+            
+   
+.comp{
+    font-size: 25px;
+  color: rgb(165, 37, 190);
+  margin: 50px;
+  
+  
+}
+.dip{
+    font-size: 25px;
+    color: rgb(243, 6, 6);
+    margin-bottom:  25px;
+    font-family: cursive;
+}
+.exp{
+    font-size: 25px; 
+    color: rgb(243, 6, 6);
+    margin: 10px;
+    font-family: cursive;
+}
+
+ul{
+    list-style:none;
+}
+.item{
+     
+     display: flex;
+     flex-direction: row;
+     margin:5px;
+     gap: 5px;
+}
+.item img {
+    width:30px;
+    object-fit: contain;
+    
+}
+.img{
+    height: 100%;
+}

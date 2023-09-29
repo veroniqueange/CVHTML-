@@ -1,0 +1,44 @@
+
+#presentation{
+    height: 350px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(138, 137, 226);    
+    border-radius: 50px;
+    border: solid 25px rgb(10, 10, 10);
+    font-size: 20px; 
+    font-family: cursive;
+    
+}
+
+.comp{
+    font-size: 25px;
+  color: rgb(207, 15, 15);
+  margin: 50px;
+  
+  
+}
+#coordonnées{
+    margin:0;
+    border-top: solid 20px rgb(10, 10, 10);
+    padding: 50px;
+    font-size: 20px; 
+    font-family: cursive;
+    height: 150px;
+    width: 560px;
+    display: none;
+        
+}
+/*main{
+    height: 700px;
+    margin:10px ;
+   font-size: 18px;    
+    
+    font-family: cursive;
+    flex-direction: column;
+}**/
+
+body{
+    flex-direction: column;
+    background-color: rgba(138, 137, 226);
+}
